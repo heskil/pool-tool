@@ -1,8 +1,10 @@
 package com.management.poolmanagement;
 
+import com.management.poolmanagement.service.UserService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
+
 
 //TODO Remove exclusion of SecurityAutoConfiguration, only for development
 @SpringBootApplication(exclude = { SecurityAutoConfiguration.class })
